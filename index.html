@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" type="image/jpeg" href="brand-mark.jpg">
+  <title>GhostTab Privacy Policy</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0d0c12;--panel:#17151f;--text:#f5f2fb;--muted:#b9b2c8;--accent:#c3a8ff;--line:#302a3d}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#26203a 0,transparent 52%),var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    main{width:min(850px,calc(100% - 32px));margin:44px auto;padding:clamp(22px,5vw,48px);border:1px solid var(--line);border-radius:24px;background:rgba(23,21,31,.92);box-shadow:0 24px 90px #0005}
+    .brand{display:flex;align-items:center;gap:13px;padding-bottom:26px;margin-bottom:32px;border-bottom:1px solid var(--line)}
+    .brand img{width:52px;height:52px;display:block;border-radius:14px;box-shadow:0 8px 26px #7b5bd433}
+    .brand-name{font-size:14px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;line-height:1.45}
+    .brand-byline{margin-top:3px;color:var(--muted);font-size:10px;letter-spacing:.18em;font-weight:700;text-transform:uppercase}
+    .brand-byline .separator{color:var(--accent);padding:0 5px}
+    .eyebrow{color:var(--accent);letter-spacing:.14em;text-transform:uppercase;font-size:12px;font-weight:700}h1{font-size:clamp(32px,6vw,48px);line-height:1.12;letter-spacing:-.04em;margin:.4em 0}h2{font-size:21px;letter-spacing:-.02em;margin:32px 0 8px}p,li{color:#ddd7e8}small,.updated{color:var(--muted)}a{color:var(--accent);overflow-wrap:anywhere}ul{padding-left:22px}li{padding:3px 0}.notice{padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:#ffffff05;margin:24px 0}
+    footer{border-top:1px solid var(--line);margin-top:40px;padding-top:20px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+<main>
+  <header class="brand" aria-label="Ghost Interactive, by Ghost Studios">
+    <img src="brand-mark.jpg" alt="Ghost Studios logo" width="52" height="52">
+    <div>
+      <div class="brand-name">Ghost Interactive</div>
+      <div class="brand-byline">A Ghost Studios project</div>
+    </div>
+  </header>
+  <div class="eyebrow">GhostTab · Privacy</div>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: October 28, 2026</p>
+  <p>GhostTab is a customizable browser New Tab extension with wallpapers, shortcuts, widgets, and a study timer with a to-do list. This policy explains what stays on your device and what is sent to third-party services when you choose to use optional features.</p>
+
+  <div class="notice"><strong>In brief:</strong> GhostTab does not operate a user-data server and does not use advertising or analytics trackers. Your settings, tasks, shortcuts, and uploaded wallpapers are stored locally in your browser. Two optional features make requests to services you choose to use: weather and web search.</div>
+
+  <h2>Information stored on your device</h2>
+  <p>GhostTab stores your preferences, widget settings, timer durations, to-do items, shortcut configuration, and wallpaper-library data in browser extension storage and local IndexedDB. This data is used to keep your New Tab configured between visits. GhostTab does not send these locally stored items to its developer.</p>
+  <p>Uploaded wallpaper images and videos remain in local browser storage unless you choose to export a backup. You can remove wallpapers, delete tasks, reset settings, or clear the extension's browser data. Exported backups are files that you control.</p>
+
+  <h2>Optional weather widget</h2>
+  <p>If you enable Weather and submit a city name, GhostTab sends that city name to the <a href="https://geocoding-api.open-meteo.com/" rel="noopener noreferrer">Open-Meteo geocoding API</a> to find the location. It then sends the returned latitude and longitude, along with the chosen temperature unit and time-zone setting, to the <a href="https://api.open-meteo.com/" rel="noopener noreferrer">Open-Meteo forecast API</a> to display current conditions. The request is made directly by your browser; GhostTab does not operate a proxy server for it.</p>
+  <p>Open-Meteo states that its free API logs may include IP addresses and, for troubleshooting, geographic coordinates; see its <a href="https://open-meteo.com/en/terms" rel="noopener noreferrer">Terms &amp; Privacy</a>. You can stop these weather requests by turning off the Weather widget or clearing the configured city.</p>
+
+  <h2>Search and shortcuts</h2>
+  <p>When you submit a search, GhostTab sends the query to the search provider selected in your settings (Google, Bing, DuckDuckGo, or Brave). That provider receives the request under its own privacy policy. GhostTab does not maintain a search-history database. When you open a shortcut or bookmark, the destination website handles your visit under its own policies.</p>
+
+  <h2>Sharing, advertising, and analytics</h2>
+  <p>GhostTab does not sell user data, serve ads, or include third-party analytics or tracking pixels. Apart from the optional weather and search requests described above, GhostTab does not transmit your locally stored settings, tasks, shortcuts, or wallpaper files to the developer.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>storage:</strong> saves settings and preferences locally in the browser profile.</li>
+    <li><strong>unlimitedStorage:</strong> supports a local wallpaper library that may contain large image or video files.</li>
+    <li><strong>Open-Meteo host access:</strong> is used only by the optional weather feature to look up a user-entered city and retrieve weather data.</li>
+  </ul>
+
+  <h2>Children and sensitive information</h2>
+  <p>GhostTab is a general-purpose productivity and personalization extension. It does not ask users to submit sensitive information. Do not put sensitive personal information in to-do items or other locally stored text fields.</p>
+
+  <h2>Policy changes and contact</h2>
+  <p>This policy may be updated when GhostTab's features or data practices change. The latest version will be published at this page. For questions, use the support contact shown on the GhostTab listing in the Microsoft Edge Add-ons Store.</p>
+  <footer><strong>Ghost Interactive <span class="separator">|</span> Ghost Studios</strong><br>GhostTab Privacy Policy · This page describes the GhostTab v2.0.0 submission build.</footer>
+</main>
+</body>
+</html>
